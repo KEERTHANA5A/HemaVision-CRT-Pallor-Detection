@@ -1,6 +1,32 @@
+
 # HemaVision
 
+> Automated peripheral perfusion assessment using computer vision, embedded systems, and real-time CRT analysis.
+
 ### Automated Peripheral Perfusion Assessment Device using Capillary Refill Time and Skin Pallor Analysis
+
+---
+
+## Why the Name “HemaVision”?
+
+The name **HemaVision** combines:
+
+- **Hema** — derived from *Hematology*, the study of blood and blood-related physiological analysis.
+- **Vision** — representing the use of *Computer Vision* techniques for real-time image-based assessment.
+
+Together, the name reflects the project's core objective:
+using computer vision and embedded systems to analyze blood perfusion indicators such as Capillary Refill Time (CRT) and skin pallor.
+
+---
+
+## Demo
+
+🎥 **Prototype Demonstration:**  
+[Watch HemaVision Demo](PASTE_VIDEO_LINK_HERE)
+
+---
+
+## Overview
 
 HemaVision is a hardware-software healthcare prototype designed for automated peripheral perfusion assessment using computer vision and embedded systems.
 
@@ -67,8 +93,7 @@ Author of the research paper:
 
 Developed the complete HemaVision system integrating computer vision, embedded systems, Raspberry Pi–based processing, automated CRT analysis, and skin pallor classification.
 
-Status: Accepted for publication in Wiley.
-
+**Status:** Accepted for publication in Wiley.
 
 ---
 
@@ -80,4 +105,5 @@ Status: Accepted for publication in Wiley.
 * Temperature compensation
 * Cloud integration
 * Mobile application support
+
 
