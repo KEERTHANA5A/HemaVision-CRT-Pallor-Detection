@@ -22,7 +22,7 @@ using computer vision and embedded systems to analyze blood perfusion indicators
 ## Demo
 
 🎥 **Prototype Demonstration:**  
-[Watch HemaVision Demo](PASTE_VIDEO_LINK_HERE)
+[Watch HemaVision Demo](result-demo/demo_video_link.md)
 
 ---
 
