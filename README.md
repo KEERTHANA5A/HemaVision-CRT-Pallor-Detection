@@ -1,19 +1,83 @@
+# HemaVision
 
-# HemaVision — CRT & Pallor Vision Prototype (OpenCV)
-OpenCV-based system that analyzes fingertip redness and return thresholds to measure CRT and detect pallor, designed for future integration with embedded hardware (Raspberry Pi).
-> Research prototype for educational use only — **not a medical device**.
+### Automated Peripheral Perfusion Assessment Device using Capillary Refill Time and Skin Pallor Analysis
+
+HemaVision is a hardware-software healthcare prototype designed for automated peripheral perfusion assessment using computer vision and embedded systems.
+
+The system measures:
+
+* Capillary Refill Time (CRT)
+* Skin Pallor Classification
+
+using real-time fingertip video analysis, pressure standardization, and embedded sensing.
+
+---
 
 ## Features
-- ROI-based redness signal with baseline → press → release **state machine**
-- Moving-average smoothing; adaptive return threshold (e.g., 95% of baseline)
-- On-screen guidance & telemetry; optional live plotting for debugging
-- Designed to run on laptop webcam; **hardware integration (Raspberry Pi) planned**
 
-## Install
-```bash
-python -m venv venv
-# Windows: venv\Scripts\activate   |   macOS/Linux: source venv/bin/activate
-pip install -r requirements.txt
-## Run
-python hemavision_crt.py
-**Keys:** `p` = press (lock baseline) • `r` = release (start CRT) • `q`/`Esc` = quit
+* Real-time CRT detection
+* Skin pallor assessment
+* Raspberry Pi integration
+* OpenCV-based image processing
+* Force-sensitive resistor (FSR) pressure detection
+* OLED feedback display
+* Controlled LED illumination
+* Portable embedded healthcare prototype
+
+---
+
+## Tech Stack
+
+### Software
+
+* Python
+* OpenCV
+* NumPy
+* Raspberry Pi OS
+
+### Hardware
+
+* Raspberry Pi Zero 2W
+* 5MP Camera Module
+* FSR Sensor
+* OLED Display
+* LED Illumination System
+* Custom PCB
+
+---
+
+## Workflow
+
+1. Capture fingertip video
+2. Extract ROI
+3. Compute red-channel intensity
+4. Apply smoothing filter
+5. Detect blanching/release
+6. Measure CRT recovery
+7. Classify pallor level
+8. Display results
+
+---
+
+## Research Publication
+
+Author of the research paper:
+
+**“HemaVision: An Automated Peripheral Perfusion Assessment Device Using Capillary Refill Time and Skin Pallor Analysis”**
+
+Developed the complete HemaVision system integrating computer vision, embedded systems, Raspberry Pi–based processing, automated CRT analysis, and skin pallor classification.
+
+Status: Accepted for publication in Wiley.
+
+
+---
+
+## Future Improvements
+
+* Clinical trials
+* Adaptive ROI detection
+* AI-based pallor prediction
+* Temperature compensation
+* Cloud integration
+* Mobile application support
+
