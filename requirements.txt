@@ -1,3 +1,9 @@
-numpy
 opencv-python
+numpy
 matplotlib
+RPi.GPIO
+picamera2
+luma.oled
+luma.core
+Pillow
+
